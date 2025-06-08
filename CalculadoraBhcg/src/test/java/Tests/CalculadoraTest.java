@@ -41,8 +41,6 @@ class CalculadoraTest {
         assertEquals("Fora do intervalo de 3–16 semanas de gestação.", calc.interpretarBhcg(100, 113));
     }
 
-    // --- Testes de limite adaptados para as mensagens originais ---
-
     @Test
     public void testSemana3() {
         int dum = 21;
