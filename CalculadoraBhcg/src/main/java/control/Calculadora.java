@@ -68,9 +68,9 @@ public class Calculadora {
         if (hcg >= minimo && hcg <= maximo) {
             return "Resultado positivo compatível com a idade gestacional";
         } else if (hcg < minimo) {
-            return "Resultado positivo aminimo do esperado";
+            return "Resultado positivo abaixo do esperado";
         } else {
-            return "Resultado positivo aminimo do esperado";
+            return "Resultado positivo acima do esperado";
         }
     }
 }
