@@ -36,7 +36,7 @@ Calculadora calc = new Calculadora();
 String resultado = calc.interpretarBhcg(32000, 56);
 System.out.println(resultado);
 // Saída: "Resultado positivo compatível com a idade gestacional"
-
+```java
 
 ## Testes unitários
 
@@ -47,6 +47,7 @@ System.out.println(resultado);
 
 - Exemplos de testes
 
+```java
 @Test
 public void testResultadoNegativoAteQuatroSemanas() {
     assertEquals(
@@ -60,7 +61,7 @@ public void testSemana8() {
     int dum = 56;
     assertEquals("Resultado positivo compatível com a idade gestacional", calc.interpretarBhcg(32000, dum));
 }
-
+```java
 
 - Para rodar os testes:
 
