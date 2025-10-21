@@ -77,9 +77,9 @@ public void testSemana8() {
 
 #### Clone o repositório:
 
-git clone https://github.com/eympessanha/ACEngenhariaDeSoftware.git
+git clone https://github.com/eympessanha/CalculadoraBetaHCG.git
 
-cd ACEngenhariaDeSoftware
+cd CalculadoraBetaHCG
 
 
 #### Compile o projeto:
